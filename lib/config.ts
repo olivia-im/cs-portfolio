@@ -1,12 +1,12 @@
 import type { Portfolio } from "@/lib/types";
 
 const PORTFOLIO_DATA: Portfolio = {
-	name: "Your Name Here",
+	name: "Olivia Ishisaki Magliocco",
 	headline: "Aspiring Innovator | Full-Stack Developer | AI Enthusiast",
 	bio: "A results-driven computer science student at [Your University] with a passion for building disruptive, scalable, and user-centric applications. Eager to leverage modern technologies to solve real-world problems and drive impactful change. Currently seeking high-growth internship opportunities for Summer 202X.",
 
 	// Your contact email
-	email: "hello@yourdomain.com",
+	email: "oliviacim324@gmail.com",
 
 	// Add your links here
 	// Supported icons: 'GitHub', 'LinkedIn', 'Twitter', 'Blog'
