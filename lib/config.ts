@@ -3,7 +3,7 @@ import type { Portfolio } from "@/lib/types";
 const PORTFOLIO_DATA: Portfolio = {
 	name: "Olivia Ishisaki Magliocco",
 	headline: "Aspiring Innovator | Full-Stack Developer | AI Enthusiast",
-	bio: "A results-driven computer science student at [Your University] with a passion for building disruptive, scalable, and user-centric applications. Eager to leverage modern technologies to solve real-world problems and drive impactful change. Currently seeking high-growth internship opportunities for Summer 202X.",
+	bio: "A first-year undergraduate student studying Applied Mathematics at UCLA with a growing interest in software development. Looking to combine creativity with analytical thinking to explore how technology can make community engagement more accessible. Seeking opportunities to expand technical skills.",
 
 	// Your contact email
 	email: "oliviacim324@gmail.com",
@@ -11,8 +11,8 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add your links here
 	// Supported icons: 'GitHub', 'LinkedIn', 'Twitter', 'Blog'
 	links: [
-		{ name: "GitHub", url: "https" },
-		{ name: "LinkedIn", url: "https" },
+		{ name: "GitHub", url: "https://github.com/olivia-im" },
+		{ name: "LinkedIn", url: "https://www.linkedin.com/in/olivia-ishisaki-magliocco-17a337395" },
 		{ name: "Twitter", url: "https" },
 		// { name: "Blog", url: "https://yourblog.com" },
 	],
@@ -76,9 +76,9 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add any education or awards
 	education: [
 		{
-			degree: "B.S. in Computer Science",
-			institution: "[Your University]",
-			date: "Expected May 202X",
+			degree: "B.S. in Applied Mathematics",
+			institution: "[UCLA]",
+			date: "Expected June 2029",
 			note: "Minor in [e.g., Business, Data Science]"
 		},
 		{

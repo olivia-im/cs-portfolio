@@ -16,20 +16,20 @@ const IconMap: {
 
 export default function Home() {
 	return (
-		<div className="font-geist-sans antialiased bg-gray-950 text-gray-200 min-h-screen">
+		<div className="font-geist sans antialiased bg-fuchsia-100 text-pink-400 min-h-screen">
 			<div className="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
 
 				{/* Header/Nav */}
 				<header className="flex justify-between items-center py-6">
-					<div className="text-2xl font-bold text-white">
+					<div className="text-2xl font-bold text-pink-300">
 						{portfolioData.name.split(' ').map(n => n[0]).join('')}
 					</div>
 					<nav className="flex items-center space-x-4">
-						<Link href="#projects" className="text-gray-400 hover:text-white transition-colors">Projects</Link>
-						<Link href="#experience" className="text-gray-400 hover:text-white transition-colors">Experience</Link>
+						<Link href="#projects" className="text-pink-400 hover:text-white transition-colors">Projects</Link>
+						<Link href="#experience" className="text-pink-400 hover:text-white transition-colors">Experience</Link>
 						<Link
 							href={`mailto:${portfolioData.email}`}
-							className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+							className="bg-pink-300 hover:bg-pink-400 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
 						>
 							Contact Me
 						</Link>
@@ -43,10 +43,10 @@ export default function Home() {
 						<h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight">
 							{portfolioData.name}
 						</h1>
-						<p className="mt-4 text-2xl sm:text-3xl text-blue-400 font-medium">
+						<p className="mt-4 text-2xl sm:text-3xl text-pink-300 font-medium">
 							{portfolioData.headline}
 						</p>
-						<p className="mt-6 max-w-2xl mx-auto text-lg text-gray-300">
+						<p className="mt-6 max-w-2xl mx-auto text-lg text-pink-400">
 							{portfolioData.bio}
 						</p>
 						<div className="mt-8 flex justify-center space-x-5">
@@ -59,7 +59,7 @@ export default function Home() {
 										target="_blank"
 										rel="noopener noreferrer"
 										aria-label={link.name}
-										className="text-gray-400 hover:text-white transition-colors"
+										className="text-pink-400 hover:text-white transition-colors"
 									>
 										<Icon className="w-6 h-6" />
 									</Link>
@@ -68,7 +68,7 @@ export default function Home() {
 							<Link
 								href={`mailto:${portfolioData.email}`}
 								aria-label="Email"
-								className="text-gray-400 hover:text-white transition-colors"
+								className="text-pink-400 hover:text-white transition-colors"
 							>
 								<Mail className="w-6 h-6" />
 							</Link>
@@ -77,14 +77,14 @@ export default function Home() {
 
 					{/* Skills Section */}
 					<section id="skills">
-						<h2 className="text-3xl font-bold text-white text-center">
+						<h2 className="text-3xl font-bold text-fuchsia-400 text-center">
 							Core Competencies
 						</h2>
 						<div className="mt-8 flex flex-wrap justify-center gap-3">
 							{portfolioData.skills.map((skill) => (
 								<span
 									key={skill}
-									className="bg-gray-800 text-blue-300 px-4 py-2 rounded-full text-sm font-medium"
+									className="bg-fuchsia-300 text-white px-4 py-2 rounded-full text-sm font-medium"
 								>
 									{skill}
 								</span>
@@ -94,7 +94,7 @@ export default function Home() {
 
 					{/* Projects Section */}
 					<section id="projects">
-						<h2 className="text-3xl font-bold text-white text-center">
+						<h2 className="text-3xl font-bold text-violet-400 text-center">
 							Projects
 						</h2>
 						<div className="mt-8 grid md:grid-cols-2 gap-8">
@@ -106,7 +106,7 @@ export default function Home() {
 
 					{/* Experience Section */}
 					<section id="experience">
-						<h2 className="text-3xl font-bold text-white text-center">
+						<h2 className="text-3xl font-bold text-indigo-300 text-center">
 							Experience
 						</h2>
 						<div className="mt-8 space-y-10">
@@ -118,7 +118,7 @@ export default function Home() {
 
 					{/* Education Section */}
 					<section id="education">
-						<h2 className="text-3xl font-bold text-white text-center">
+						<h2 className="text-3xl font-bold text-blue-300 text-center">
 							Education & Awards
 						</h2>
 						<div className="mt-8 space-y-8">
@@ -131,7 +131,7 @@ export default function Home() {
 				</main>
 
 				{/* Footer */}
-				<footer className="text-center text-gray-500 py-12 mt-12">
+				<footer className="text-center text-pink-400 py-12 mt-12">
 					© {new Date().getFullYear()} {portfolioData.name}.
 					Built with React & Tailwind.
 				</footer>
@@ -143,15 +143,15 @@ export default function Home() {
 // Sub-component for Project Cards
 function ProjectCard({ project }: { project: Project }) {
 	return (
-		<div className="bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-all hover:shadow-blue-900/20 hover:border-gray-700">
+		<div className="bg-violet-300 rounded-xl overflow-hidden shadow-lg border border-violet-300 transition-all hover:shadow-violet-500/20 hover:border-violet-500">
 			<div className="p-6">
 				<h3 className="text-xl font-bold text-white">{project.title}</h3>
-				<p className="mt-3 text-gray-300 text-base">{project.description}</p>
+				<p className="mt-3 text-white text-base">{project.description}</p>
 				<div className="mt-4 flex flex-wrap gap-2">
 					{project.stack.map((tech) => (
 						<span
 							key={tech}
-							className="bg-gray-800 text-blue-300 px-3 py-1 rounded-full text-xs font-medium"
+							className="bg-violet-400 text-white px-3 py-1 rounded-full text-xs font-medium"
 						>
 							{tech}
 						</span>
