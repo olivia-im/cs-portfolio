@@ -3,7 +3,7 @@ import type { Portfolio } from "@/lib/types";
 const PORTFOLIO_DATA: Portfolio = {
 	name: "Olivia Ishisaki Magliocco",
 	headline: "Aspiring Innovator | Full-Stack Developer | AI Enthusiast",
-	bio: "A first-year undergraduate student studying Applied Mathematics at UCLA with a growing interest in software development. Looking to combine creativity with analytical thinking to explore how technology can make community engagement more accessible. Seeking opportunities to expand technical skills.",
+	bio: "A second-year undergraduate student studying Mathematics. Looking to combine creativity with analytical thinking to explore how technology can make community engagement more accessible. Seeking opportunities to expand technical skills.",
 
 	// Your contact email
 	email: "oliviacim324@gmail.com",
@@ -19,7 +19,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 	// Add your skills here
 	skills: [
-		"JavaScript", "TypeScript", "React", "Next.js", "Node.js",
+		"Figma", "TypeScript", "React", "Next.js", "Node.js",
 		"Python", "Go", "Tailwind CSS", "Firebase", "AWS", "Docker", "Kubernetes"
 	],
 
@@ -51,25 +51,25 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add your experience here
 	experience: [
 		{
-			role: "Software Engineer Intern (Incoming)",
-			company: "Big Tech Co / FAANG",
-			date: "Summer 202X",
-			location: "Menlo Park, CA (Remote)",
-			description: "Selected for a highly competitive internship program. Will be joining the [Cloud/AI/Growth] team to work on high-impact, customer-facing features."
+			role: "Product Manager Intern",
+			company: "Recruit Co., Ltd.",
+			date: "Summer 2026",
+			location: "Tokyo, Japan",
+			description: "Led a 3-person team to expand Recruit’s automotive platform, Carsensor, beyond its current target audience. Conducted 10 user interviews in Japanese and mapped customer journeys to identify and prioritize key user needs. Developed and prototyped a product using Figma and Claude Code to address pain points for first-time used-car buyers."
 		},
 		{
-			role: "Club President / Co-Founder",
-			company: "[Your Vibe-Coding Club Name]",
-			date: "Aug 202X - Present",
-			location: "[Your University]",
-			description: "Grew the organization from 5 to 200+ members by fostering a culture of innovation and 'vibecoding.' Organized tech talks with industry leaders from Google, Meta, and hot startups."
+			role: "Operations Lead & Outreach",
+			company: "Bruin Software Engineers (BSE)",
+			date: "Feb 2026 - Present",
+			location: "UCLA",
+			description: "Co-directed the UI/UX Product Design Fellowship, developing a 4-week curriculum and project structure for participants. Managed logistics of 4 club events ( ~20 attendees each), coordinating vendor outreach, venue research, and event planning."
 		},
 		{
-			role: "Teaching Assistant - Intro to CS",
-			company: "[Your University]",
-			date: "Jan 202X - May 202X",
-			location: "[Your University]",
-			description: "Mentored 50+ students, held office hours, and graded assignments for foundational computer science concepts. Received a 95% positive feedback rating from students."
+			role: "Product Development Director",
+			company: "Project Lux",
+			date: "Sep 2026 - Present",
+			location: "UCLA",
+			description: "Maintaining and improving Project Lux’s website and Retool interface while coordinating with Beacon and other departments to address technology needs. Training volunteers and chapter leaders to effectively use relevant platforms."
 		}
 	],
 
